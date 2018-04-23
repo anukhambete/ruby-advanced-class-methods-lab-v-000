@@ -43,7 +43,7 @@ class Song
   def self.new_from_filename(filename)
    song = self.new
    array_temp = []
-   array_temp = filename.split('-')
+   array_temp = filename.split(' - ')
    song.name = array_temp[1]   #.gsub(".mp3","")
    song.artist_name = array_temp[0]
    song
