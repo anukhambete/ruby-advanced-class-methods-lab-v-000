@@ -46,6 +46,7 @@ class Song
    array_temp = filename.split('-')
    song.name = array_temp[1].slice!('.mp3')
    song.artist_name = array_temp[0]
+   song
   end
   
 end
