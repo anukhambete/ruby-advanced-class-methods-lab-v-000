@@ -42,9 +42,9 @@ class Song
   
   def self.new_from_filename(filename)
    array_temp = []
-   array_temp = filename.split(-)
-   song.name =
-   song.artist_name = 
+   array_temp = filename.split('-')
+   song.name = 
+   song.artist_name = array_temp[0]
    
     
   end
